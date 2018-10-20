@@ -1,0 +1,18 @@
+div {
+    height: 100px;
+}
+
+.custom-container-fluid {
+    background-color: blue;
+}
+
+.custom-container {
+    background-color: red;
+}
+
+.custom-container .custom-column {
+    background-color: orange;
+}
+.custom-container .custom-column:nth-child(2n) {
+    background-color: aqua;
+}
